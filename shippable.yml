@@ -43,8 +43,8 @@ deploy:
   
 integrations:
   notifications:
-    - integrationName: email
-      type: email
+    - integrationName: webhook
+      type: webhook
       recipients: 
         - deepika@shippable.com
         - deepika.iitkgp@gmail.com
