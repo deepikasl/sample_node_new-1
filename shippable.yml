@@ -44,8 +44,8 @@ integrations:
     - integrationName: email
       type: email
       recipients: 
-        - ankul@shippable.com
-        - ankulkumar001@gmail.com
+        - deepika@shippable.com
+        - deepika.iitkgp@gmail.com
       on_success: always
       on_failure: always
       on_start: always
