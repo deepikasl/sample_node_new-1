@@ -1,0 +1,7 @@
+resources:
+  - name: docker-image-9
+    type: image
+    source:
+      name: "deepika/test-repo"
+      isPull: false
+      tag: akskas
