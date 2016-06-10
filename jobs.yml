@@ -1,0 +1,5 @@
+jobs:
+  - name: job9
+    type: manifest
+    steps:
+      - GET docker-image-9
