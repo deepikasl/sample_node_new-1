@@ -1,7 +1,6 @@
 resources:
   - name: docker-image-9
     type: image
-    integration: subInt-docker
     source:
       name: "deepika/test-repo"
       isPull: false
