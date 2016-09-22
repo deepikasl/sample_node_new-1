@@ -3,18 +3,14 @@ language: python
 env:
   global:
     - FOO=FUBU
-    - FO1=BUBU
-    - BOO=GUBU
 
   matrix:
     - M1=ONE
-    - M2=TWO
-    - M3=THREE
 
 build:
   pre_ci:
     - echo "true4"
-    - jfrog
+    - jfrog rt u shippable.yml test-local
 
   # pre_ci_boot:
   #   image_name: drydock/u14rub
