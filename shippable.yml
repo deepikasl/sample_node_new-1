@@ -38,13 +38,7 @@ deploy:
   pre_build:
     - ls
   
-# integrations:
-#   notifications:
-#     - integrationName: webhook
-#       type: webhook
-#       recipients: 
-#         - deepika@shippable.com
-#         - deepika.iitkgp@gmail.com
-#       on_success: always
-#       on_failure: always
-#       on_start: always
+integrations:
+  hub:
+    - integrationName: deepika-jfrog
+      type: artifactory
